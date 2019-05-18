@@ -1,0 +1,12 @@
+public class CreationalParser immplements Command
+{
+  Creational creational;
+  CreationalParser(Creational creational)
+  {
+    this.creational = creational;
+  }
+  execute()
+  {
+    creational.parser();
+  }
+}
